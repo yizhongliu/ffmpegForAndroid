@@ -78,6 +78,7 @@ build_bin() {
 		 --enable-encoder=aac \
 		 --enable-encoder=mjpeg \
 		 --enable-encoder=png \
+		 --enable-encoder=mpeg4 \
 		 --disable-decoders \
 		 --enable-decoder=aac \
 		 --enable-decoder=aac_latm \

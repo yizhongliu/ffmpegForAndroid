@@ -1220,7 +1220,7 @@
 @c @set config-flv-encoder no
 @c @set config-gif-encoder no
 @c @set config-h261-encoder no
-@c @set config-h263-encoder no
+@set config-h263-encoder yes
 @c @set config-h263p-encoder no
 @c @set config-hap-encoder no
 @c @set config-huffyuv-encoder no
@@ -1231,7 +1231,7 @@
 @set config-mjpeg-encoder yes
 @c @set config-mpeg1video-encoder no
 @c @set config-mpeg2video-encoder no
-@c @set config-mpeg4-encoder no
+@set config-mpeg4-encoder yes
 @c @set config-msmpeg4v2-encoder no
 @c @set config-msmpeg4v3-encoder no
 @c @set config-msvideo1-encoder no
