@@ -89,10 +89,15 @@ build_bin() {
 		 --enable-demuxer=image2 \
 		 --enable-demuxer=h264 \
 		 --enable-demuxer=aac \
+                 --enable-demuxer=mpegvideo \
+                 --enable-demuxer=avi \
+                 --enable-demuxer=mov \
 		 --disable-parsers \
 		 --enable-parser=aac \
 		 --enable-parser=ac3 \
 		 --enable-parser=h264 \
+                 --enable-parser=mpeg4video \
+                 --enable-parser=mjpeg \
 		 --enable-gpl \
 		 --disable-doc \
 		 --disable-ffmpeg \

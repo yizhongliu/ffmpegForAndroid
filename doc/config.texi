@@ -348,8 +348,8 @@
 @set have-struct-sockaddr-storage yes
 @set have-struct-stat-st-mtim-tv-nsec yes
 @set have-struct-v4l2-frmivalenum-discrete yes
-@c @set have-makeinfo no
-@c @set have-makeinfo-html no
+@set have-makeinfo yes
+@set have-makeinfo-html yes
 @c @set have-opencl-d3d11 no
 @c @set have-opencl-drm-arm no
 @c @set have-opencl-drm-beignet no
@@ -360,10 +360,10 @@
 @set have-pod2man yes
 @c @set have-texi2html no
 @c @set config-doc no
-@c @set config-htmlpages no
+@set config-htmlpages yes
 @set config-manpages yes
 @set config-podpages yes
-@c @set config-txtpages no
+@set config-txtpages yes
 @set config-avio-dir-cmd-example yes
 @set config-avio-reading-example yes
 @set config-decode-audio-example yes
@@ -637,7 +637,7 @@
 @c @set config-qsvenc no
 @c @set config-qsvvpp no
 @c @set config-rangecoder no
-@c @set config-riffdec no
+@set config-riffdec yes
 @set config-riffenc yes
 @c @set config-rtpdec no
 @set config-rtpenc-chain yes
@@ -1486,7 +1486,7 @@
 @set config-h263-parser yes
 @set config-h264-parser yes
 @c @set config-hevc-parser no
-@c @set config-mjpeg-parser no
+@set config-mjpeg-parser yes
 @c @set config-mlp-parser no
 @set config-mpeg4video-parser yes
 @c @set config-mpegaudio-parser no
@@ -1974,7 +1974,7 @@
 @c @set config-ass-demuxer no
 @c @set config-ast-demuxer no
 @c @set config-au-demuxer no
-@c @set config-avi-demuxer no
+@set config-avi-demuxer yes
 @c @set config-avisynth-demuxer no
 @c @set config-avr-demuxer no
 @c @set config-avs-demuxer no
@@ -2076,14 +2076,14 @@
 @c @set config-mlv-demuxer no
 @c @set config-mm-demuxer no
 @c @set config-mmf-demuxer no
-@c @set config-mov-demuxer no
+@set config-mov-demuxer yes
 @c @set config-mp3-demuxer no
 @c @set config-mpc-demuxer no
 @c @set config-mpc8-demuxer no
 @c @set config-mpegps-demuxer no
 @c @set config-mpegts-demuxer no
 @c @set config-mpegtsraw-demuxer no
-@c @set config-mpegvideo-demuxer no
+@set config-mpegvideo-demuxer yes
 @c @set config-mpjpeg-demuxer no
 @c @set config-mpl2-demuxer no
 @c @set config-mpsub-demuxer no
